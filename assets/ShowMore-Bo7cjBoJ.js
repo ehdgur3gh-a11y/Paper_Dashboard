@@ -1,0 +1,1 @@
+import{C as e,E as t,u as n}from"./hooks-B3yaJJW1.js";var r=t(e(),1),i=n();function a(e,t=10){let[n,a]=(0,r.useState)(!1),o=e??[];return[n?o:o.slice(0,t),o.length>t?(0,i.jsx)(`button`,{onClick:()=>a(!n),className:`mt-3 w-full rounded-full bg-canvas py-2.5 text-sm text-accent hover:bg-line/40`,children:n?`접기`:`더 보기 (${o.length-t}개 더)`}):null]}export{a as t};
